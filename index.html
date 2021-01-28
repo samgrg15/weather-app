@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Weather App</h1>
+      </div>
+      <link rel="stylesheet" href="src/weather-styles.css" />
+      <form>
+        <form id="search">
+        <label for="city"></label>
+        <input type="city" placeholder="Enter your city" class="city" id="search-text-input" />
+        <button class="random" id="city-submit-button" value="search">Submit</button>
+        <button class="random">Random</button>
+      </form>
+
+      <div class="box-one">
+        <h2>Basingstoke, UK</h2>
+
+        <h3>7°</h3>
+
+        <img src="src/images/yellow-snow.png" img id="snow" />
+
+        <div class="weather">Snow</div>
+
+        <div class="feels">
+          <p>Feels like -2°</p>
+        </div>
+
+        <div class="date" id="current-day-time">
+          <p>Saturday 20:52PM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container week">
+      <div class="row">
+        <div class="days col-md-3">
+          <p>Sunday</p>
+          <img src="src/images/sun.png" img id="sun" />
+          <p class="temp">3°</p>
+        </div>
+        <div class="days col-md-3">
+          <p>Monday</p>
+          <img src="src/images/sun.png" img id="sun" />
+          <p class="temp">3°</p>
+        </div>
+        <div class="days col-md-3">
+          <p>Tuesday</p>
+          <img src="src/images/snowflake.gif" img id="snowflake" />
+          <p class="temp">2°</p>
+        </div>
+        <div class="days col-md-3">
+          <p>Wednesday</p>
+          <img src="src/images/snowflake.gif" img id="snowflake" />
+          <p class="temp">4°</p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"> </script>
+  </body>
+</html>
