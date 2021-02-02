@@ -26,7 +26,7 @@ function searchCity() {
     console.log(response.data.main.temp);
     document.querySelector("h3").innerHTML = `${temperature}°C`;
     let feelsLike = Math.round(response.data.main.feels_like);
-    document.querySelector(".feels").innerHTML = `Feels like ${feelsLike}°C`;
+    document.querySelector(".feels").innerHTML = `<p>Feels like ${feelsLike}°C</p>`;
   });
 }
 let sam = document.querySelector("#city-submit-button");
