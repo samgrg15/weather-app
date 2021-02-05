@@ -33,7 +33,7 @@
         <label for="city"></label>
         <input type="city" placeholder="Enter your city" class="city" id="search-text-input" />
         <button class="random" id="city-submit-button" value="search">Submit</button>
-        <button class="random">Random</button>
+        <button class="random" id="random-submit-button">Random</button>
         <button class="random"><a href="https://github.com/samgrg15/weather-app">GitHub</a></button>
       </form>
 
@@ -59,22 +59,22 @@
     <div class="container week">
       <div class="row">
         <div class="days col-md-3">
-          <p>Sunday</p>
+          <p class="day-1">Sunday</p>
+          <img src="images/sun.png" img id="sun" />
+          <p class="temp">3°</p>
+        </div>
+        <div class="col-md-3">
+          <p class="day-2">Monday</p>
           <img src="images/sun.png" img id="sun" />
           <p class="temp">3°</p>
         </div>
         <div class="days col-md-3">
-          <p>Monday</p>
-          <img src="images/sun.png" img id="sun" />
-          <p class="temp">3°</p>
-        </div>
-        <div class="days col-md-3">
-          <p>Tuesday</p>
+          <p class="day-3">Tuesday</p>
           <img src="images/snowflake.gif" img id="snowflake" />
           <p class="temp">2°</p>
         </div>
         <div class="days col-md-3">
-          <p>Wednesday</p>
+          <p class="day-4">Wednesday</p>
           <img src="images/snowflake.gif" img id="snowflake" />
           <p class="temp">4°</p>
         </div>
