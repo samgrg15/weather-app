@@ -60,7 +60,7 @@ sam.addEventListener("click", searchCity);
 
 //<------add code to display what the random button should do---->
 
-element.addEventListener("click", ".random");
+/*element.addEventListener("click", ".random");
 function randomCity() {
   let city = ["Rome"||"Paris"||"Geneva"||"Kathmandu"||"Budapest"||"Chester"||"Lisburn"||"Huddersfield"||"Edinburgh"||"York"||"Anaheim"];
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3e0a34619942fda75b63ed8d41cdcd36&units=metric`
@@ -70,9 +70,9 @@ function randomCity() {
 
 //let answers = ["Rome","Paris","Geneva","Kathmandu","Budapest","Chester","Lisburn","Huddersfield","Edinburgh","York","Anaheim"];
 //const randomCity = Math.Floor(Math.random() * 10);
-if (randomCity === 0) {
-  answers = Rome
-}
+//if (randomCity === 0) {
+//  answers = Rome
+//}
 
 http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3e0a34619942fda75b63ed8d41cdcd36&units=metric
 
@@ -82,5 +82,6 @@ http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3e0a34619942fda75
   
 //let randomisation = document.querySelector("#random-submit-button");
 //element.addEventListener("click", dice);
+*/
  
 
