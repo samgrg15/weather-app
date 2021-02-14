@@ -24,27 +24,26 @@
   </head>
   <body>
     <div class="container">
-      <div class="title">
-        <h1>Weather App</h1>
-      </div>
+      
       <link rel="stylesheet" href="weather-style.css" />
-      <form>
-        <form id="search">
-        <label for="city"></label>
-        <input type="city" placeholder="Enter your city" class="city" id="search-text-input" />
-        <button class="random" id="city-submit-button" value="search">Submit</button>
-        <button class="random" id="random-submit-button">Random</button>
-        <button class="random"><a href="https://github.com/samgrg15/weather-app">GitHub</a></button>
-      </form>
-
+      
       <div class="box-one">
-        <h2>Basingstoke, UK</h2>
+        <h2>Loading...</h2>
+
+        <form>
+          <form id="search">
+          <label for="city"></label>
+          <input type="city" placeholder="Enter your city" class="city" id="search-text-input" />
+          <button class="random" id="city-submit-button" value="search">Submit</button>
+          <button class="random" id="random-submit-button">Random</button>
+          <button class="random"><a href="https://github.com/samgrg15/weather-app">GitHub</a></button>
+        </form>
 
         <h3>7°</h3>
 
         <img src="images/yellow-snow.png" img id="snow" />
 
-        <div class="weather">Snow</div>
+        <div class="weather">SNOW</div>
 
         <div class="feels">
           <p>Feels like -2°</p>
@@ -53,28 +52,32 @@
         <div class="date" id="current-day-time">
           <p>Saturday 20:52PM</p>
         </div>
+
+        <div class="wind">
+          <p>Wind speed: 4mph</p>
+        </div>
       </div>
     </div>
 
     <div class="container week">
       <div class="row">
         <div class="days col-md-3">
-          <p class="day-1">Sunday</p>
-          <img src="images/sun.png" img id="sun" />
-          <p class="temp">3°</p>
-        </div>
-        <div class="col-md-3">
-          <p class="day-2">Monday</p>
+          <p class="hour">12:00</p>
           <img src="images/sun.png" img id="sun" />
           <p class="temp">3°</p>
         </div>
         <div class="days col-md-3">
-          <p class="day-3">Tuesday</p>
+          <p class="hour-2">13:00</p>
+          <img src="images/sun.png" img id="sun" />
+          <p class="temp">3°</p>
+        </div>
+        <div class="days col-md-3">
+          <p class="hour-3">14:00</p>
           <img src="images/snowflake.gif" img id="snowflake" />
           <p class="temp">2°</p>
         </div>
         <div class="days col-md-3">
-          <p class="day-4">Wednesday</p>
+          <p class="hour-4">15:00</p>
           <img src="images/snowflake.gif" img id="snowflake" />
           <p class="temp">4°</p>
         </div>
